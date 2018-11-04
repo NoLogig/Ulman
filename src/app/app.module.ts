@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SpiralUlmanComponent } from './spiral-ulman/spiral-ulman.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SpiralUlmanComponent
   ],
   imports: [
     BrowserModule,
